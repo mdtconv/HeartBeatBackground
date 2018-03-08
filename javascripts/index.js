@@ -7,8 +7,8 @@ var socket = io('http://13.125.124.80:3000');
 video.play();
 
 let enabled = false;
-let disabledVideos = ["./../videos/disabled_1.mp4"];
-let enabledVideos = ["./../videos/enabled_1.mp4", "./../videos/enabled_2.mp4", "./../videos/enabled_3.mp4", "./../videos/enabled_4.mp4", "./../videos/enabled_5.mp4"];
+let disabledVideos = ["./../videos/disabled_1.mp4", "./../videos/disabled_2.mp4"];
+let enabledVideos = ["./../videos/enabled_1.mp4", "./../videos/enabled_2.mp4", "./../videos/enabled_3.mp4", "./../videos/enabled_4.mp4", "./../videos/enabled_5.mp4", "./../videos/enabled_6.mp4"];
 
 socket.on('connect', () => {
     console.log('Connected');
